@@ -1,6 +1,8 @@
 // simply a function that returns a state.... is a reducer 
     // reducer takes in two parameters initial state and action
         // reducers you usually use a switch statement
+            // next step combine all reducers.. 
+
 const reducer = (state = 0, action) => {
     switch(action.type){
         case'depost':
@@ -14,3 +16,5 @@ const reducer = (state = 0, action) => {
 }
 
 export default reducer
+
+
