@@ -5,3 +5,7 @@ export const store = createStore(
     reducers, 
     {}
 )
+
+
+// now time to access the data in every component in our application. 
+
