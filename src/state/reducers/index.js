@@ -1,5 +1,3 @@
-// combine all reducers in here. 
-
 import {combineReducers } from 'redux'
 import accountReducer from './accountReducer'
 

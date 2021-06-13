@@ -14,5 +14,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+// now I have complete access to the store everywhere in the app since it is wrapped the app here. 
 
 
